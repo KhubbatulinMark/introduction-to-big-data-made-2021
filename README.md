@@ -1,7 +1,7 @@
 # introduction-to-big-data-made-2021 
 
 # Introduction to BigData MADE, 2021
-This repository contains materials and notebooks for the RL and Advanced DL course.
+This repository contains materials and notebooks for the Introduction to BigData course.
 
 ### Lectures
 
@@ -17,7 +17,7 @@ This repository contains materials and notebooks for the RL and Advanced DL cour
     <!-------------------- WEEK 1 -------------------->
     <tr>
       <td align="center"><a>1</a></td>
-      <td align="center">Введение в обучение с подкреплением. Многорукие бандиты.</td>
+      <td align="center">Introduction to BigData</td>
       <td align="center">
         <a href="./lections/01-intro-BigData.pdf"><img src="./icons/pdf.png"/></a>
         <a href="https://youtu.be/6zQia0qVz10"><img src="./icons/youtube.png"/></a>
