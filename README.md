@@ -24,4 +24,15 @@ This repository contains materials and notebooks for the Introduction to BigData
       </td>
     </tr>
   </tbody>
+  <tbody>
+    <!-------------------- WEEK 2 -------------------->
+    <tr>
+      <td align="center"><a>2</a></td>
+      <td align="center">MapReduce</td>
+      <td align="center">
+        <a href="./lections/02-MapReduce.pdf"><img src="./icons/pdf.png"/></a>
+        <a href="https://youtu.be/PcrclBk9EUI"><img src="./icons/youtube.png"/></a>
+      </td>
+    </tr>
+  </tbody>
 </table>
