@@ -17,7 +17,7 @@ This repository contains materials and notebooks for the Introduction to BigData
     <!-------------------- WEEK 1 -------------------->
     <tr>
       <td align="center"><a>1</a></td>
-      <td align="center">Introduction to BigData. HDFS</td>
+      <td align="center">Introduction to BigData. HDFS.</td>
       <td align="center">
         <a href="./lections/01-intro-BigData.pdf"><img src="./icons/pdf.png"/></a>
         <a href="https://youtu.be/6zQia0qVz10"><img src="./icons/youtube.png"/></a>
