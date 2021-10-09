@@ -35,4 +35,16 @@ This repository contains materials and notebooks for the Introduction to BigData
       </td>
     </tr>
   </tbody>
+  </tbody>
+  <tbody>
+    <!-------------------- WEEK 3 -------------------->
+    <tr>
+      <td align="center"><a>3</a></td>
+      <td align="center">SQl-like frameworks. Apache Hive</td>
+      <td align="center">
+        <a href="./lections/03-SQL-Big-Data.pdf"><img src="./icons/pdf.png"/></a>
+        <a href="https://youtu.be/qiCo18O5fRA"><img src="./icons/youtube.png"/></a>
+      </td>
+    </tr>
+  </tbody>
 </table>
