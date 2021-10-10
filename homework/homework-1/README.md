@@ -127,14 +127,17 @@ https://www.kaggle.com/dgomonov/new-york-city-airbnb-open-data  (./data/ab_nyc.c
 6. Итоговый результат с выполненным заданием должен включать в себя сам код, а также результаты его работы,
 который необходимо разместить в репозитории.
 
-
+Запусть Кластера:
 ```
-Скрипты: /scripts
-Результаты: /output
+  docker-compose up
 ```
-
+Запуск скриптов:
+```
+  docker exec -it 75537ab55258 bash 
+  bash /scripts/script-block-3.sh
 ```
 Результаты:
+```
 Numpy mean: 152.7206871868289
 Numpy var: 57672.84569843359
 Map-Reduce mean: 152.72068718682894	
