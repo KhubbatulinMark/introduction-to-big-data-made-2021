@@ -2,13 +2,17 @@ version: "3"
 
 services:
   namenode:
-    image: bde2020/hadoop-namenode:2.0.0-hadoop3.2.1-java8
+    build:
+      context: ./namenode
     container_name: namenode
     restart: always
     ports:
       - "9870:9870"
       - "9000:9000"
     volumes:
+      - ./data:/data
+      - ./output:/output
+      - ./scripts:/scripts
       - hadoop_namenode:/hadoop/dfs/name
     environment:
       - CLUSTER_NAME=test
@@ -60,7 +64,8 @@ services:
       - hadoop.env
 
   nodemanager1:
-    image: bde2020/hadoop-nodemanager:2.0.0-hadoop3.2.1-java8
+    build:
+      context: ./nodemanager
     container_name: nodemanager
     restart: always
     environment:
