@@ -47,4 +47,16 @@ This repository contains materials and notebooks for the Introduction to BigData
       </td>
     </tr>
   </tbody>
+  </tbody>
+  <tbody>
+    <!-------------------- WEEK 4 -------------------->
+    <tr>
+      <td align="center"><a>4</a></td>
+      <td align="center">Visualization tools for Big Data. Polynote. Zeppeline.</td>
+      <td align="center">
+        <a href="./lections/04-Vis-REPLS-Clouds.pdf"><img src="./icons/pdf.png"/></a>
+        <a href="https://youtu.be/shD5y0QqJDk"><img src="./icons/youtube.png"/></a>
+      </td>
+    </tr>
+  </tbody>
 </table>
