@@ -36,7 +36,7 @@ https://www.kaggle.com/pieca111/music-artists-popularity - 15 баллов
 docker exec -it homework-2_namenode_1 bash
 
 hdfs dfs -mkdir /data
-hdfs dfs -put /mnt/data/artists.csv /data/artists.csv'
+hdfs dfs -put /mnt/data/artists.csv /data/artists.csv
 ```
 [Запрос на создание таблицы и добавления данных](queries/import-data.sql)
 
@@ -54,6 +54,6 @@ hdfs dfs -put /mnt/data/artists.csv /data/artists.csv'
     2.c) [10 баллов] Самые популярные исполнители 10 самых популярных тегов ластфм. [Запрос](queries/c.sql)
     ![](./screenshoots/c.png)
 
-    2.d) [10 баллов] Любой другой инсайт на ваше усмотрение. Давайте узнаем какой источник тега
-самой популярной группы Германии - это last_mf, mb они он встречается в обоих источниках [Запрос](queries/d.sql)
+    2.d) [10 баллов] Любой другой инсайт на ваше усмотрение. Давайте узнаем источник тега
+самой популярной группы Германии - это last_mf, mb или он встречается в обоих источниках [Запрос](queries/d.sql)
     ![](./screenshoots/d.png)
