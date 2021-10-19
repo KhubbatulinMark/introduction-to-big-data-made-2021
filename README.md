@@ -59,4 +59,15 @@ This repository contains materials and notebooks for the Introduction to BigData
       </td>
     </tr>
   </tbody>
+  <tbody>
+    <!-------------------- WEEK 5 -------------------->
+    <tr>
+      <td align="center"><a>5</a></td>
+      <td align="center">JVM. Scala. Breeze</td>
+      <td align="center">
+        <a href="./lections/05-Scala.pdf"><img src="./icons/pdf.png"/></a>
+        <a href="https://youtu.be/JkPaX20Gh-E"><img src="./icons/youtube.png"/></a>
+      </td>
+    </tr>
+  </tbody>
 </table>
