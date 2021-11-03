@@ -14,5 +14,7 @@
 
 Аргументы: data/raw/data.csv (input) data/prediction/predict.csv (output)
 
-[Логирование](logs/main.log) обучения и предсказания.
+[Логирование](logs/main.log) обучения и предсказания
+
+[Предсказания](./data/prediction/predict.csv) модели на тесте
 
