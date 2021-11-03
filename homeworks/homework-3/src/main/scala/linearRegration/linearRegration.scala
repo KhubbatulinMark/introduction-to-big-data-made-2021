@@ -44,8 +44,7 @@ class linearRegration (lr: Double){
       var h = (X * weights) + bias
       computeCost(h, y)
       optimize(dataX, y)
-      var pred = predict(dataX)
-      logger.info(String.format("MSE: %.5f", MSE(y, pred)))
+      logger.info(String.format("MSE: %.5f", MSE(y, predict(dataX))))
     }
   }
 

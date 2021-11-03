@@ -20,10 +20,8 @@ object main extends App {
   logger.info(s"Train size: ${trainX.rows} , test size: ${testX.rows}")
 
   val model = new linearRegration(.01)
-
-  val meanTrainX = mean(trainX(::, *)).inner
-  val varTrainX = stddev(trainX(::, *)).inner
   model.fit(trainX, trainY)
+
   val trainPred = model.predict(trainX)
   logger.info(s"MSE on train dataset: ${model.MSE(trainY, trainPred)}")
   val testPred = model.predict(testX)
