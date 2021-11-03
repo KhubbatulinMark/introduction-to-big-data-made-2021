@@ -7,7 +7,7 @@
 
 Решение можно оформить в одном из двух вариантов: 
 - В виде ноутбука на Scala [75 баллов]
-- В виде полноценного проекта на Scala [75 баллов]
+- В виде полноценного проекта на Scala [100 баллов]
 
 [Данные](./data/raw/data.csv): Был использован игрушечный датасет из [sklearn.datasets.load_diabetes](https://scikit-learn.org/stable/modules/generated/sklearn.datasets.load_diabetes.html#sklearn.datasets.load_diabetes)
 Сразу внутри делится на train и тест. 
