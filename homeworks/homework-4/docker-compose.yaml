@@ -9,7 +9,5 @@ services:
     environment:
       - ZEPPELIN_NOTEBOOK_DIR='/notebook'
       - ZEPPELIN_LOG_DIR='/logs'
-      - SPARK_HOME='/opt/spark'
-      - FLINK_HOME='/opt/flink'
     ports:
       - "8080:8080"
