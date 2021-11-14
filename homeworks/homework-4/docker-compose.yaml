@@ -7,7 +7,7 @@ services:
       - '8895:8888'
     volumes:
       - ./data:/home/app/data
-      - ./notebook:/home/app/notebook
+      - ./notebooks:/home/app/notebooks
     environment:
       JUPYTER_ENABLE_LAB: 1s
       CHOWN_HOME: 'yes'
