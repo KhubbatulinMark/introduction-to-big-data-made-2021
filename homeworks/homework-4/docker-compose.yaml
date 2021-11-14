@@ -4,20 +4,21 @@ services:
   jupyterlab-scala-spark:
     build: .
     ports:
-      - '8888:8888'
+      - '8895:8888'
     volumes:
       - ./data:/home/app/data
-      - ./notebook:/home/app
+      - ./notebook:/home/app/notebook
     environment:
       JUPYTER_ENABLE_LAB: 1s
       CHOWN_HOME: 'yes'
       CHOWN_HOME_OPTS: '-R'
     entrypoint: /bin/bash
-#    command:
-#      -c 'jupyter lab
-#      --ip=0.0.0.0
-#      --allow-root
-#      --no-browser
-#      --notebook-dir=/home/app
-#      --NotebookApp.token="spark"
-#    '
+    command: >-
+      -c 'jupyter lab
+      --ip=0.0.0.0
+      --allow-root
+      --port=8888
+      --no-browser
+      --notebook-dir=/home/app
+      --NotebookApp.token='spark'
+      '
