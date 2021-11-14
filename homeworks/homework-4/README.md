@@ -21,4 +21,4 @@ make up
 ```
 [Данные](./data/tripadvisor_hotel_reviews.csv)
 
-[Notebook](https://nbviewer.org/github/KhubbatulinMark/introduction-to-big-data-made-2021/tree/private/homeworks/homework-4/)
+[Notebook](https://nbviewer.org/github/KhubbatulinMark/introduction-to-big-data-made-2021/tree/private/homeworks/homework-4/notebooks/TF-IDF.ipynb)
