@@ -81,4 +81,15 @@ This repository contains materials and notebooks for the Introduction to BigData
       </td>
     </tr>
   </tbody>
+  </tbody>
+  <tbody>
+    <!-------------------- WEEK 7 -------------------->
+    <tr>
+      <td align="center"><a>7</a></td>
+      <td align="center">Parallelization of ML algorithms</td>
+      <td align="center">
+        <a href="https://youtu.be/s-Fn5UL74Oo"><img src="./icons/youtube.png"/></a>
+      </td>
+    </tr>
+  </tbody>
 </table>
